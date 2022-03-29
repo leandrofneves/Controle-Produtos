@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body, html{
+    background-color: #1f2029;
+}
+section{
+    background-color: #1f2029;
+    height: 100vh;
+}
+.container{
+    height: 100%;
+    padding-top: 20px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card{
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+h4{
+    text-align: center;
+}
+#msg{
+    text-align: center;
+}
+#descricao{
+    width: 403px;
+    height: 113px;
+    resize: none;
+    font-size: 15px;
+}
+
+/* Modified from cssbuttons.io by @barisdogansutcu */
+#btn_cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: rgba(255,255,255,.55);
+    background-color: #111111;
+    border: none;
+    border-radius: 40px 40px 40px 40px;
+    padding: 16px 24px 16px 28px;
+    transform: translate(0px, 0px) rotate(0deg);
+    transition: 0.2s;
+    box-shadow: -4px -2px 16px 0px #00000057, 4px 2px 16px 0px rgb(95 157 231 / 48%);
+    margin: 0 auto;
+}
+   
+#btn_cadastro:hover {
+    color: #c7cfda;
+    background-color: #000000;
+    box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95 157 231 / 48%);
+}
+   
+#btn_cadastro:active {
+    box-shadow: none;
+}

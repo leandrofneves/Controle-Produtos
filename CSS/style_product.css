@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#body,html{
+    background-color: #1f2029;
+}
+h4{
+    color: white;
+}
+.container{
+    background-color: #1f2029;
+}
+#descricao{
+    margin-left: 11px;
+    width: 466px;
+    height: 113px;
+    resize: none;
+    font-size: 15px;
+}
+#imagem_produto{
+    margin-top: 15px;
+}
+#tabela_produto{
+    margin-top: 20px;
+    background-color: white;
+}
+#msg{
+    margin-top: 40px;
+    text-align: center;
+}
